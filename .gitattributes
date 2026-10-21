@@ -1,0 +1,23 @@
+* text=auto
+
+*.java text
+*.md text
+*.xml text
+*.yml text
+*.yaml text
+*.json text
+*.html text
+*.css text
+*.js text
+
+# Windows 批处理必须保持 CRLF，避免 cmd 解析异常
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Shell / Maven Wrapper 在 Linux/macOS 需要 LF
+*.sh text eol=lf
+mvnw text eol=lf
+
+*.jar binary
+*.png binary
+*.jpg binary

@@ -1,0 +1,12 @@
+target/
+.m2repo/
+.tools/
+.mvn-home/
+*.zip
+.idea/
+*.iml
+*.log
+
+# 预构建演示包：只保留固定名称的 jar，避免把临时构建产物提交进仓库
+dist/*
+!dist/crop-nutrition-agent-1.0.0.jar
